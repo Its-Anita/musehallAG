@@ -100,4 +100,4 @@ All images used in this project are sourced from **Pinterest** and optimized for
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
+git clone https://github.com/Its-Anita/musehallAG.git

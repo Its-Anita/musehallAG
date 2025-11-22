@@ -7,6 +7,7 @@ Welcome to **The MuseHall** repository. This project is a fully responsive onlin
 ---
 ## Live Demo
 https://themusehall.vercel.app/
+
 ---
 
 ## Project Overview & Branding

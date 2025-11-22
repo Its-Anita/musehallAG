@@ -22,7 +22,7 @@ const BestGallery = () => {
         <img
           src={bestImage}
           alt="Art Piece Showcase"
-          className="rounded-2xl shadow-xl w-full max-w-md sm:max-w-md md:max-w-lg object-cover h-64 sm:h-80 md:h-96"
+          className="rounded-2xl shadow-xl w-full max-w-md sm:max-w-md md:max-w-lg object-cover h-48 sm:h-56 md:h-48"
         />
       </div>
 

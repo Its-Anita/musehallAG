@@ -34,7 +34,7 @@ const Newin = () => {
             {/* IMAGES */}
             <div className="md:w-2/3 mt-12 md:mt-0 flex justify-center items-center gap-4 w-full h-auto flex-wrap sm:flex-nowrap">
                 
-                <div className="w-1/2 sm:w-1/4 relative h-48 sm:h-64 md:h-72 overflow-hidden rounded-xl   group">
+                <div className="w-1/2 sm:w-1/4 relative h-48 sm:h-56 md:h-48 overflow-hidden rounded-xl   group">
                     <img
                         src={new1}
                         alt="New Art 1"
@@ -47,7 +47,7 @@ const Newin = () => {
                     </div>
                 </div>
                 
-                <div className="w-1/2 sm:w-1/4 relative h-48 sm:h-64 md:h-72 overflow-hidden rounded-xl shadow-lg group">
+                <div className="w-1/2 sm:w-1/4 relative h-48 sm:h-56 md:h-48 overflow-hidden rounded-xl shadow-lg group">
                     <img
                         src={new2}
                         alt="New Art 2"
@@ -60,7 +60,7 @@ const Newin = () => {
                     </div>
                 </div>
                 
-                <div className="w-1/2 sm:w-1/4 relative h-48 sm:h-64 md:h-72 rounded-xl overflow-hidden shadow-lg group">
+                <div className="w-1/2 sm:w-1/4 relative h-48 sm:h-56 md:h-48 rounded-xl overflow-hidden shadow-lg group">
                     <img
                         src={new3}
                         alt="New Art 3"
@@ -73,7 +73,7 @@ const Newin = () => {
                     </div>
                 </div>
                 
-                <div className="w-1/2 sm:w-1/4 relative h-48 sm:h-64 md:h-72 rounded-xl overflow-hidden  group">
+                <div className="w-1/2 sm:w-1/4 relative h-48 sm:h-56 md:h-48 rounded-xl overflow-hidden  group">
                     <img
                         src={new4}
                         alt="New Art 4"

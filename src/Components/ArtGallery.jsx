@@ -26,12 +26,12 @@ const ArtGallery = () => {
   const openModal = (art) => setModalArt(art);
   const closeModal = () => {
     setModalArt(null);
-    setFormData({ name: '', address: '', payment: '' });
+    setFormData({ name: '', address: '', payment: '', email: '' });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert(`Order Received!\nArtwork: ${modalArt.name}\nName: ${formData.name}\nAddress: ${formData.address}\nPayment: ${formData.payment}`);
+    alert(`Your Order has been Placed Successfully.`);
     closeModal();
   };
 
@@ -85,7 +85,15 @@ const ArtGallery = () => {
                 className="border border-gray-300 rounded px-3 py-2 w-full"
               />
               <input
-                type="text"
+                type="email"
+                placeholder="Email"
+                value={formData.email}
+                onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                required
+                className="border border-gray-300 rounded px-3 py-2 w-full"
+              />
+              <input
+                type="number"
                 placeholder="Payment Method"
                 value={formData.payment}
                 onChange={(e) => setFormData({ ...formData, payment: e.target.value })}
